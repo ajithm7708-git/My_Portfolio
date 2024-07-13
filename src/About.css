@@ -1,0 +1,86 @@
+/* .about-page {
+    background-image: url('https://wallpapercave.com/wp/wp5542781.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    color: white;
+    padding-top: 50px; /* Adjust padding to match your design 
+  } */
+  .img{
+    border: 5px solid #0a252c;
+    height: 351px;
+    width: 342px;
+  }
+  .hel{
+    padding: 10px;
+    animation-delay: 500ms;
+    animation-duration: 1000ms;
+    pointer-events: all;
+    text-align: center;
+    margin-bottom: auto;
+  }
+  .hell{
+    background: #0bceaf;
+    border-radius: 50px 50px 50px 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight:500;
+  }
+  .txtalign{
+    margin-left: 8px;
+  }
+  .desctext{
+    margin-left: 15px;
+  }
+ .txtalignab{
+  margin-left: 12px;
+ }
+  .iconst{
+    font-size: 20px;
+  }
+  .abtxt{
+    color: azure;
+  }
+  
+
+  .about-me-container {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .about-me-image {
+    border: 3px solid #0a252c;
+    border-radius: 5px 5px 5px 5px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  
+  .about-me-image.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .animated-label {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+  }
+  
+  .animated-label.fade-in {
+    opacity: 1;
+  }
+  
+  .skills-labels {
+    margin-top: 1rem;
+  }
+  
+  .skills-labels .badge {
+    margin: 0.5rem;
+    font-size: 1rem;
+    transition: transform 0.5s;
+  }
+  
+  .skills-labels .badge:hover {
+    transform: scale(1.1);
+  }

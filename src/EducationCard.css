@@ -1,0 +1,40 @@
+.education-card {
+    margin: 1rem;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .education-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-card {
+    background-color: #f8f9fa; /* Light gray background */
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 1rem;
+  }
+  
+  .custom-card .card-title {
+    color: #18a8a8; /* Blue text for the title */
+  }
+  
+  .custom-card .card-subtitle {
+    color: #477477; /* Gray text for the subtitle */
+  }
+  
+  @keyframes pop-up {
+    0% {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .animate {
+    animation: pop-up 0.5s ease-in-out;
+  }
+  
